@@ -1,0 +1,2123 @@
+fileFormatVersion: 2
+guid: 9c1de255f02f2cc4cb78177c583b7882
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: moco rojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 286
+      height: 493
+    spriteID: 49f04ff87e585d7438f7de26c69b0901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 204, y: 143}
+  - name: moco azul
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 505
+      width: 286
+      height: 493
+    spriteID: 563889bdcbcea4e4fa80370049fe54d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 505}
+    spritePosition: {x: 204, y: 143}
+  - name: moco verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1006
+      width: 286
+      height: 493
+    spriteID: 1d04fc3d180b3bd45a0190f8b988f46a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1006}
+    spritePosition: {x: 205, y: 143}
+  - name: moco original
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1507
+      width: 286
+      height: 493
+    spriteID: 0ca05a002c490b44fa8c512b1576ba3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1507}
+    spritePosition: {x: 205, y: 143}
+  - name: gafas2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 116
+      width: 229
+      height: 113
+    spriteID: 51aa4e77f8e90364c8189361e2e7e6a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 116}
+    spritePosition: {x: 224, y: 456}
+  - name: gafas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 4
+      width: 264
+      height: 104
+    spriteID: 91cf8dcf2e6deb44ebe4553e558b372c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 4}
+    spritePosition: {x: 229, y: 461}
+  - name: collar2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 1994
+      width: 74
+      height: 39
+    spriteID: 8554eecd60a25b143b2f068828be6066
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1028, y: 1994}
+    spritePosition: {x: 306, y: 351}
+  - name: collar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1981
+      width: 76
+      height: 26
+    spriteID: 53d253c9263c77f4e8a3cce95e03b04e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 478, y: 1981}
+    spritePosition: {x: 305, y: 363}
+  - name: gorra
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 237
+      width: 177
+      height: 141
+    spriteID: 8b334d25e5befd94baa61975d2b56789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 237}
+    spritePosition: {x: 247, y: 524}
+  - name: corona azul
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1155
+      y: 4
+      width: 115
+      height: 83
+    spriteID: 916c5f9c893222442b04918433ee3b3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1155, y: 4}
+    spritePosition: {x: 284, y: 584}
+  - name: corona morada
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1278
+      y: 4
+      width: 115
+      height: 83
+    spriteID: 1162b2be27b40f1468d764daf1c98cda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1278, y: 4}
+    spritePosition: {x: 284, y: 584}
+  - name: corona verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1401
+      y: 4
+      width: 115
+      height: 83
+    spriteID: b067b088f2315a64fac8685b2c68f591
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1401, y: 4}
+    spritePosition: {x: 284, y: 584}
+  - name: corona roja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1524
+      y: 4
+      width: 115
+      height: 83
+    spriteID: dec41932add61db40a92876295d68376
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1524, y: 4}
+    spritePosition: {x: 284, y: 584}
+  - name: corona amarilla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1647
+      y: 4
+      width: 115
+      height: 83
+    spriteID: adddbe29e285d1e45bc52e37416d06e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1647, y: 4}
+    spritePosition: {x: 284, y: 584}
+  - name: sombrero azul
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1970
+      width: 100
+      height: 74
+    spriteID: e0750abed41ea2f4badc7b9ad09b8447
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1970}
+    spritePosition: {x: 293, y: 580}
+  - name: sombrero rojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1770
+      y: 4
+      width: 100
+      height: 74
+    spriteID: bc73f3a6cf82c34408e959cf663bfa82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1770, y: 4}
+    spritePosition: {x: 293, y: 580}
+  - name: sombrero verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1878
+      y: 4
+      width: 100
+      height: 74
+    spriteID: 42b66702d8c502b448aa25fa081d8b67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1878, y: 4}
+    spritePosition: {x: 293, y: 580}
+  - name: sombrero amarillo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 243
+      width: 100
+      height: 74
+    spriteID: 1200771d88a07bf4e8347ac70abdba2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 747, y: 243}
+    spritePosition: {x: 293, y: 580}
+  - name: sombrero morado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 325
+      width: 100
+      height: 74
+    spriteID: ff4cde6ad8584c1419be5be6466c0baf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 747, y: 325}
+    spritePosition: {x: 294, y: 580}
+  - name: brazo dere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1037
+      y: 386
+      width: 68
+      height: 112
+    spriteID: e8cc02fe7bb18c641bff4e48a6a667e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1037, y: 386}
+    spritePosition: {x: 375, y: 254}
+  - name: brazo der rojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1037
+      y: 515
+      width: 68
+      height: 112
+    spriteID: 5e502d49279ac2244b3ca21e9afed594
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1037, y: 515}
+    spritePosition: {x: 375, y: 254}
+  - name: brazo dere verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1037
+      y: 644
+      width: 68
+      height: 112
+    spriteID: a0a5649873d44fe45be4e892ae411997
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1037, y: 644}
+    spritePosition: {x: 375, y: 254}
+  - name: brazo der amarillo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1037
+      y: 773
+      width: 68
+      height: 112
+    spriteID: 3cff98539c896dc46987da1f7b60b845
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1037, y: 773}
+    spritePosition: {x: 375, y: 255}
+  - name: brazo morado dere
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1030
+      y: 902
+      width: 68
+      height: 112
+    spriteID: d0bcb60718b537742bc01cea708ae35d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1030, y: 902}
+    spritePosition: {x: 375, y: 254}
+  - name: cara
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 902
+      width: 139
+      height: 112
+    spriteID: 0745bc7ea3e4b0f4589fe43949216c8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 902}
+    spritePosition: {x: 255, y: 431}
+  - name: cara roja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1022
+      width: 139
+      height: 112
+    spriteID: b8985692570c14c409f749401c23e4d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1022}
+    spritePosition: {x: 255, y: 431}
+  - name: cara verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1142
+      width: 139
+      height: 112
+    spriteID: ce9a1d97826f26345b1afff3f95bf55c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1142}
+    spritePosition: {x: 255, y: 431}
+  - name: cara amarilla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1262
+      width: 139
+      height: 112
+    spriteID: 9648a1955ee59d148a9e70e584684436
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1262}
+    spritePosition: {x: 255, y: 431}
+  - name: cara morado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1382
+      width: 139
+      height: 112
+    spriteID: c15466259a9b9e64b857985da8007129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1382}
+    spritePosition: {x: 255, y: 431}
+  - name: cara golpe
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1502
+      width: 137
+      height: 109
+    spriteID: 31d92a9dfb890274882546a3e226d090
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1502}
+    spritePosition: {x: 261, y: 426}
+  - name: cara golpe roja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1619
+      width: 137
+      height: 109
+    spriteID: ecd81e577b5dbab45baa67c9379e7517
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1619}
+    spritePosition: {x: 261, y: 426}
+  - name: cara golpe verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1736
+      width: 137
+      height: 109
+    spriteID: 91bd0e036654e0f44ab5689262c8ef3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1736}
+    spritePosition: {x: 261, y: 426}
+  - name: cara golpe amarilla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 1853
+      width: 137
+      height: 109
+    spriteID: 325ad7b3a9486464296593c93ea39b6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 1853}
+    spritePosition: {x: 261, y: 426}
+  - name: cara golpe morado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1120
+      y: 116
+      width: 137
+      height: 109
+    spriteID: 675b7b862d3a69949ab570207c278b59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1120, y: 116}
+    spritePosition: {x: 261, y: 426}
+  - name: cara triste roja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 1875
+      width: 146
+      height: 121
+    spriteID: f18e4ca5a0612804283d8d568f6847e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 1875}
+    spritePosition: {x: 252, y: 429}
+  - name: cara triste verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 386
+      width: 146
+      height: 121
+    spriteID: 2ea485faa365c354bbca0925e4293e9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 386}
+    spritePosition: {x: 252, y: 429}
+  - name: cara triste amarilla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 515
+      width: 146
+      height: 121
+    spriteID: 1fa1e81f142a4ff46afda59e0f3da26e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 515}
+    spritePosition: {x: 252, y: 429}
+  - name: cara triste morado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 644
+      width: 146
+      height: 121
+    spriteID: dff2f430e34169049bfcd8aeafa6bbb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 644}
+    spritePosition: {x: 252, y: 429}
+  - name: cara triste
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 773
+      width: 146
+      height: 121
+    spriteID: 715d34b2fb0bce74ab07a647f6422191
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 883, y: 773}
+    spritePosition: {x: 252, y: 429}
+  - name: cabeza
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 4
+      width: 261
+      height: 270
+    spriteID: 67551279920e6fa4eadb918c08e16607
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 4}
+    spritePosition: {x: 216, y: 347}
+  - name: cabeza roja
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 282
+      width: 261
+      height: 270
+    spriteID: dace22701b942564c8bd689f5ea4623b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 282}
+    spritePosition: {x: 216, y: 347}
+  - name: cabeza verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 560
+      width: 261
+      height: 270
+    spriteID: 5f69fe0fd66cb41479492dbd2024312d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 560}
+    spritePosition: {x: 216, y: 347}
+  - name: cabeza amarilla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 838
+      width: 261
+      height: 270
+    spriteID: 969c9f02a5ba249418ce729a744a74d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 838}
+    spritePosition: {x: 216, y: 347}
+  - name: cabeza morada
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 1116
+      width: 261
+      height: 270
+    spriteID: 002897808e28e2a4ca83dd4044fe75b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 1116}
+    spritePosition: {x: 216, y: 347}
+  - name: medidor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 407
+      width: 128
+      height: 49
+    spriteID: 0a5ad11734116264a9f2d70b161d61a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 747, y: 407}
+    spritePosition: {x: 279, y: 229}
+  - name: cuerpo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 919
+      width: 128
+      height: 231
+    spriteID: 905e032a06f3db64896c378505f7ac4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 919}
+    spritePosition: {x: 279, y: 181}
+  - name: cuerpo rojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 1158
+      width: 128
+      height: 231
+    spriteID: 0418e205ce3286946b677dd5d657a425
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 1158}
+    spritePosition: {x: 279, y: 181}
+  - name: cuerpo verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 1397
+      width: 128
+      height: 231
+    spriteID: 7ff026b8d23ffbc4c80452645d24dcc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 1397}
+    spritePosition: {x: 279, y: 181}
+  - name: cuerpo amarillo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 1636
+      width: 128
+      height: 231
+    spriteID: 0931c343e05f2734189c4186173c9765
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 1636}
+    spritePosition: {x: 279, y: 181}
+  - name: cuerpo morado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 747
+      y: 4
+      width: 128
+      height: 231
+    spriteID: 755a07ff069f2ae408c8905f066b30ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 747, y: 4}
+    spritePosition: {x: 280, y: 181}
+  - name: cuerpo pincho
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 1394
+      width: 172
+      height: 297
+    spriteID: 538a1970956d20b4bbe625bad9c2a572
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 1394}
+    spritePosition: {x: 279, y: 148}
+  - name: cuerpo pincho rojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 1699
+      width: 172
+      height: 297
+    spriteID: 1ccd70f41a65ff847b8d57203f364e98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 298, y: 1699}
+    spritePosition: {x: 279, y: 148}
+  - name: cuerpo pincho verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 4
+      width: 172
+      height: 297
+    spriteID: 0f1d282f980948f47ab065a52040a6cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 4}
+    spritePosition: {x: 279, y: 148}
+  - name: cuerpo pincho amarillo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 309
+      width: 172
+      height: 297
+    spriteID: c5361cb5a68785342b9064d341038ad8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 309}
+    spritePosition: {x: 280, y: 148}
+  - name: cuerpo morad pincho
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 567
+      y: 614
+      width: 172
+      height: 297
+    spriteID: de59f1f45a445d8499a1b2f9b88e7c72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 567, y: 614}
+    spritePosition: {x: 280, y: 148}
+  - name: brazo izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 1853
+      width: 78
+      height: 133
+    spriteID: 61765d326dd82f545bef5a2ebf978cf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1028, y: 1853}
+    spritePosition: {x: 222, y: 234}
+  - name: brazo izq rojo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1394
+      width: 78
+      height: 133
+    spriteID: 6dc7baa28bc4bf748a80c315f6a5f358
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 478, y: 1394}
+    spritePosition: {x: 222, y: 233}
+  - name: brazo izq verde
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1535
+      width: 78
+      height: 133
+    spriteID: e0307f66ec692e046a3bcd5415f0fe39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 478, y: 1535}
+    spritePosition: {x: 222, y: 234}
+  - name: brazo izq amarillo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1699
+      width: 78
+      height: 133
+    spriteID: 16e0444fe5e273746b2b0d922ca0aa00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 478, y: 1699}
+    spritePosition: {x: 222, y: 233}
+  - name: brazo izq morado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 478
+      y: 1840
+      width: 78
+      height: 133
+    spriteID: fadf6150ec2f6ce4e89dd8a3017ed68b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 478, y: 1840}
+    spritePosition: {x: 222, y: 233}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: moco rojo
+    spriteName: moco rojo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49f04ff87e585d7438f7de26c69b0901
+    layerID: 161
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: moco azul
+    spriteName: moco azul
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 563889bdcbcea4e4fa80370049fe54d7
+    layerID: 160
+    mosaicPosition: {x: 4, y: 505}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: moco verde
+    spriteName: moco verde
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1d04fc3d180b3bd45a0190f8b988f46a
+    layerID: 159
+    mosaicPosition: {x: 4, y: 1006}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: moco original
+    spriteName: moco original
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0ca05a002c490b44fa8c512b1576ba3b
+    layerID: 149
+    mosaicPosition: {x: 4, y: 1507}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: accesorios
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: a9d1d87c82623f04fba604adefda7d79
+    layerID: 96
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: gafas2
+    spriteName: gafas2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 51aa4e77f8e90364c8189361e2e7e6a7
+    layerID: 134
+    mosaicPosition: {x: 883, y: 116}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: gafas
+    spriteName: gafas
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 91cf8dcf2e6deb44ebe4553e558b372c
+    layerID: 111
+    mosaicPosition: {x: 883, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: collar2
+    spriteName: collar2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8554eecd60a25b143b2f068828be6066
+    layerID: 126
+    mosaicPosition: {x: 1028, y: 1994}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: collar
+    spriteName: collar
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 53d253c9263c77f4e8a3cce95e03b04e
+    layerID: 122
+    mosaicPosition: {x: 478, y: 1981}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: gorra
+    spriteName: gorra
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8b334d25e5befd94baa61975d2b56789
+    layerID: 124
+    mosaicPosition: {x: 883, y: 237}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: corona azul
+    spriteName: corona azul
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 916c5f9c893222442b04918433ee3b3e
+    layerID: 113
+    mosaicPosition: {x: 1155, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: corona morada
+    spriteName: corona morada
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 1162b2be27b40f1468d764daf1c98cda
+    layerID: 121
+    mosaicPosition: {x: 1278, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: corona verde
+    spriteName: corona verde
+    isGroup: 0
+    parentIndex: 4
+    spriteID: b067b088f2315a64fac8685b2c68f591
+    layerID: 119
+    mosaicPosition: {x: 1401, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: corona roja
+    spriteName: corona roja
+    isGroup: 0
+    parentIndex: 4
+    spriteID: dec41932add61db40a92876295d68376
+    layerID: 116
+    mosaicPosition: {x: 1524, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: corona amarilla
+    spriteName: corona amarilla
+    isGroup: 0
+    parentIndex: 4
+    spriteID: adddbe29e285d1e45bc52e37416d06e4
+    layerID: 114
+    mosaicPosition: {x: 1647, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sombrero azul
+    spriteName: sombrero azul
+    isGroup: 0
+    parentIndex: 4
+    spriteID: e0750abed41ea2f4badc7b9ad09b8447
+    layerID: 101
+    mosaicPosition: {x: 883, y: 1970}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sombrero rojo
+    spriteName: sombrero rojo
+    isGroup: 0
+    parentIndex: 4
+    spriteID: bc73f3a6cf82c34408e959cf663bfa82
+    layerID: 104
+    mosaicPosition: {x: 1770, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sombrero verde
+    spriteName: sombrero verde
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 42b66702d8c502b448aa25fa081d8b67
+    layerID: 103
+    mosaicPosition: {x: 1878, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sombrero amarillo
+    spriteName: sombrero amarillo
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 1200771d88a07bf4e8347ac70abdba2d
+    layerID: 105
+    mosaicPosition: {x: 747, y: 243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: sombrero morado
+    spriteName: sombrero morado
+    isGroup: 0
+    parentIndex: 4
+    spriteID: ff4cde6ad8584c1419be5be6466c0baf
+    layerID: 106
+    mosaicPosition: {x: 747, y: 325}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo der
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 952ff461cbcc8b24cbed8e438a99b765
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: brazo dere
+    spriteName: brazo dere
+    isGroup: 0
+    parentIndex: 20
+    spriteID: e8cc02fe7bb18c641bff4e48a6a667e8
+    layerID: 14
+    mosaicPosition: {x: 1037, y: 386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo der rojo
+    spriteName: brazo der rojo
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 5e502d49279ac2244b3ca21e9afed594
+    layerID: 83
+    mosaicPosition: {x: 1037, y: 515}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo dere verde
+    spriteName: brazo dere verde
+    isGroup: 0
+    parentIndex: 20
+    spriteID: a0a5649873d44fe45be4e892ae411997
+    layerID: 70
+    mosaicPosition: {x: 1037, y: 644}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo der amarillo
+    spriteName: brazo der amarillo
+    isGroup: 0
+    parentIndex: 20
+    spriteID: 3cff98539c896dc46987da1f7b60b845
+    layerID: 58
+    mosaicPosition: {x: 1037, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo morado dere
+    spriteName: brazo morado dere
+    isGroup: 0
+    parentIndex: 20
+    spriteID: d0bcb60718b537742bc01cea708ae35d
+    layerID: 46
+    mosaicPosition: {x: 1030, y: 902}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cd97e02c5984e7f47b3fbdeed8a65633
+    layerID: 33
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cara
+    spriteName: cara
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 0745bc7ea3e4b0f4589fe43949216c8f
+    layerID: 15
+    mosaicPosition: {x: 883, y: 902}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara roja
+    spriteName: cara roja
+    isGroup: 0
+    parentIndex: 26
+    spriteID: b8985692570c14c409f749401c23e4d0
+    layerID: 85
+    mosaicPosition: {x: 883, y: 1022}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara verde
+    spriteName: cara verde
+    isGroup: 0
+    parentIndex: 26
+    spriteID: ce9a1d97826f26345b1afff3f95bf55c
+    layerID: 72
+    mosaicPosition: {x: 883, y: 1142}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara amarilla
+    spriteName: cara amarilla
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 9648a1955ee59d148a9e70e584684436
+    layerID: 60
+    mosaicPosition: {x: 883, y: 1262}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara morado
+    spriteName: cara morado
+    isGroup: 0
+    parentIndex: 26
+    spriteID: c15466259a9b9e64b857985da8007129
+    layerID: 49
+    mosaicPosition: {x: 883, y: 1382}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara golpe
+    spriteName: cara golpe
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 31d92a9dfb890274882546a3e226d090
+    layerID: 148
+    mosaicPosition: {x: 883, y: 1502}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara golpe roja
+    spriteName: cara golpe roja
+    isGroup: 0
+    parentIndex: 26
+    spriteID: ecd81e577b5dbab45baa67c9379e7517
+    layerID: 153
+    mosaicPosition: {x: 883, y: 1619}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara golpe verde
+    spriteName: cara golpe verde
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 91bd0e036654e0f44ab5689262c8ef3b
+    layerID: 152
+    mosaicPosition: {x: 883, y: 1736}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara golpe amarilla
+    spriteName: cara golpe amarilla
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 325ad7b3a9486464296593c93ea39b6c
+    layerID: 151
+    mosaicPosition: {x: 883, y: 1853}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara golpe morado
+    spriteName: cara golpe morado
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 675b7b862d3a69949ab570207c278b59
+    layerID: 150
+    mosaicPosition: {x: 1120, y: 116}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara triste roja
+    spriteName: cara triste roja
+    isGroup: 0
+    parentIndex: 26
+    spriteID: f18e4ca5a0612804283d8d568f6847e6
+    layerID: 158
+    mosaicPosition: {x: 567, y: 1875}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara triste verde
+    spriteName: cara triste verde
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 2ea485faa365c354bbca0925e4293e9a
+    layerID: 157
+    mosaicPosition: {x: 883, y: 386}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara triste amarilla
+    spriteName: cara triste amarilla
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 1fa1e81f142a4ff46afda59e0f3da26e
+    layerID: 156
+    mosaicPosition: {x: 883, y: 515}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara triste morado
+    spriteName: cara triste morado
+    isGroup: 0
+    parentIndex: 26
+    spriteID: dff2f430e34169049bfcd8aeafa6bbb3
+    layerID: 155
+    mosaicPosition: {x: 883, y: 644}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cara triste
+    spriteName: cara triste
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 715d34b2fb0bce74ab07a647f6422191
+    layerID: 136
+    mosaicPosition: {x: 883, y: 773}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 0caa7283edfd6974a9e4587a380c0c7d
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cabeza
+    spriteName: cabeza
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 67551279920e6fa4eadb918c08e16607
+    layerID: 6
+    mosaicPosition: {x: 298, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza roja
+    spriteName: cabeza roja
+    isGroup: 0
+    parentIndex: 42
+    spriteID: dace22701b942564c8bd689f5ea4623b
+    layerID: 87
+    mosaicPosition: {x: 298, y: 282}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza verde
+    spriteName: cabeza verde
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 5f69fe0fd66cb41479492dbd2024312d
+    layerID: 75
+    mosaicPosition: {x: 298, y: 560}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza amarilla
+    spriteName: cabeza amarilla
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 969c9f02a5ba249418ce729a744a74d8
+    layerID: 62
+    mosaicPosition: {x: 298, y: 838}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza morada
+    spriteName: cabeza morada
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 002897808e28e2a4ca83dd4044fe75b5
+    layerID: 51
+    mosaicPosition: {x: 298, y: 1116}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b8ab1fec09943c8458813813cad62a59
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: medidor
+    spriteName: medidor
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 0a5ad11734116264a9f2d70b161d61a3
+    layerID: 42
+    mosaicPosition: {x: 747, y: 407}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo
+    spriteName: cuerpo
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 905e032a06f3db64896c378505f7ac4c
+    layerID: 23
+    mosaicPosition: {x: 567, y: 919}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo rojo
+    spriteName: cuerpo rojo
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 0418e205ce3286946b677dd5d657a425
+    layerID: 89
+    mosaicPosition: {x: 567, y: 1158}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo verde
+    spriteName: cuerpo verde
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 7ff026b8d23ffbc4c80452645d24dcc3
+    layerID: 77
+    mosaicPosition: {x: 567, y: 1397}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo amarillo
+    spriteName: cuerpo amarillo
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 0931c343e05f2734189c4186173c9765
+    layerID: 64
+    mosaicPosition: {x: 567, y: 1636}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo morado
+    spriteName: cuerpo morado
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 755a07ff069f2ae408c8905f066b30ea
+    layerID: 52
+    mosaicPosition: {x: 747, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo pincho
+    spriteName: cuerpo pincho
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 538a1970956d20b4bbe625bad9c2a572
+    layerID: 41
+    mosaicPosition: {x: 298, y: 1394}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo pincho rojo
+    spriteName: cuerpo pincho rojo
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 1ccd70f41a65ff847b8d57203f364e98
+    layerID: 91
+    mosaicPosition: {x: 298, y: 1699}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo pincho verde
+    spriteName: cuerpo pincho verde
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 0f1d282f980948f47ab065a52040a6cd
+    layerID: 79
+    mosaicPosition: {x: 567, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo pincho amarillo
+    spriteName: cuerpo pincho amarillo
+    isGroup: 0
+    parentIndex: 48
+    spriteID: c5361cb5a68785342b9064d341038ad8
+    layerID: 66
+    mosaicPosition: {x: 567, y: 309}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo morad pincho
+    spriteName: cuerpo morad pincho
+    isGroup: 0
+    parentIndex: 48
+    spriteID: de59f1f45a445d8499a1b2f9b88e7c72
+    layerID: 54
+    mosaicPosition: {x: 567, y: 614}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: ae1a76879a46e0c4c81e1983431bff06
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: brazo izq
+    spriteName: brazo izq
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 61765d326dd82f545bef5a2ebf978cf3
+    layerID: 19
+    mosaicPosition: {x: 1028, y: 1853}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq rojo
+    spriteName: brazo izq rojo
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 6dc7baa28bc4bf748a80c315f6a5f358
+    layerID: 93
+    mosaicPosition: {x: 478, y: 1394}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq verde
+    spriteName: brazo izq verde
+    isGroup: 0
+    parentIndex: 60
+    spriteID: e0307f66ec692e046a3bcd5415f0fe39
+    layerID: 81
+    mosaicPosition: {x: 478, y: 1535}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq amarillo
+    spriteName: brazo izq amarillo
+    isGroup: 0
+    parentIndex: 60
+    spriteID: 16e0444fe5e273746b2b0d922ca0aa00
+    layerID: 68
+    mosaicPosition: {x: 478, y: 1699}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq morado
+    spriteName: brazo izq morado
+    isGroup: 0
+    parentIndex: 60
+    spriteID: fadf6150ec2f6ce4e89dd8a3017ed68b
+    layerID: 56
+    mosaicPosition: {x: 478, y: 1840}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Fondo
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aab96bdc65e7e414d829c51d00a02c74
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

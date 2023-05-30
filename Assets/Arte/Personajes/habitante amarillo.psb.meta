@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: ec9e7dd8765bb9d498189a8f77574ff6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: brazo izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 1427
+      width: 214
+      height: 107
+    spriteID: 2bfc83db6c84a6b42970f255971ae105
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 1427}
+    spritePosition: {x: 427, y: 254}
+  - name: brazo izq negro
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 1182
+      width: 233
+      height: 119
+    spriteID: dd34d07426dbf6648a0861284427296e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 1182}
+    spritePosition: {x: 408, y: 254}
+  - name: brazo izq gris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 1542
+      width: 214
+      height: 107
+    spriteID: 55e99c0b2676d6a4882827886998ffb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 1542}
+    spritePosition: {x: 427, y: 254}
+  - name: Cabeza
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 786
+      width: 269
+      height: 373
+    spriteID: 2cb8633ed3560bf4ea985f3dfbe044e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 786}
+    spritePosition: {x: 291, y: 354}
+  - name: cabeza habla
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1167
+      width: 269
+      height: 373
+    spriteID: 0d657a2ca11a9a9429c9188e2716e030
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1167}
+    spritePosition: {x: 288, y: 354}
+  - name: cabeza  habla negra
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 283
+      height: 383
+    spriteID: 8d0ad4515efdbf547bc4d68603982824
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 287, y: 335}
+  - name: cabeza negra
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 395
+      width: 283
+      height: 383
+    spriteID: 7293bebdaccad444c8105a48eda8de7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 395}
+    spritePosition: {x: 285, y: 335}
+  - name: cabeza gris suspiro
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1548
+      width: 269
+      height: 373
+    spriteID: 695e1282f9ca52b4aa06550cb33847e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1548}
+    spritePosition: {x: 292, y: 335}
+  - name: cabeza gris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 4
+      width: 269
+      height: 373
+    spriteID: 8ccfaa4219894e3469fc714d84218229
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 4}
+    spritePosition: {x: 293, y: 335}
+  - name: cuerpo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 660
+      width: 165
+      height: 253
+    spriteID: 46e30245f36a24d48ae0b967d9ac3a57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 660}
+    spritePosition: {x: 312, y: 160}
+  - name: cuerpo negro
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 385
+      width: 171
+      height: 267
+    spriteID: 080cc98f6c066f24f9313d83dc937f79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 385}
+    spritePosition: {x: 310, y: 161}
+  - name: cuerpo gris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 921
+      width: 165
+      height: 253
+    spriteID: bc1c669e49eb21f4f93bd1907aef6919
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 921}
+    spritePosition: {x: 312, y: 160}
+  - name: pierna izq
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 426
+      y: 1772
+      width: 66
+      height: 160
+    spriteID: e384b2f4e1e5e2444a3f85ab850ff2e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 426, y: 1772}
+    spritePosition: {x: 392, y: 42}
+  - name: pierna izq negro
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 1772
+      width: 123
+      height: 160
+    spriteID: 50e9de2ee4ad19c45a0af48933bda453
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 1772}
+    spritePosition: {x: 335, y: 43}
+  - name: pierna izq gris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 572
+      y: 4
+      width: 66
+      height: 160
+    spriteID: c070435e07640b3478908c69630229a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 572, y: 4}
+    spritePosition: {x: 392, y: 41}
+  - name: pierna der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 468
+      y: 921
+      width: 66
+      height: 161
+    spriteID: 91a7830975484314bba161308b84f03a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 468, y: 921}
+    spritePosition: {x: 315, y: 41}
+  - name: pierna der negra
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 468
+      y: 660
+      width: 95
+      height: 161
+    spriteID: 4b4fc8d7bded2644188ab76e906b0284
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 468, y: 660}
+    spritePosition: {x: 315, y: 40}
+  - name: pierna der gris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 474
+      y: 385
+      width: 66
+      height: 161
+    spriteID: defd71151d03b2e4ea7fc9c6183646bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 474, y: 385}
+    spritePosition: {x: 314, y: 42}
+  - name: brazo der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1929
+      width: 214
+      height: 110
+    spriteID: 14cb1be7b31eb8a46ad3a0278075337a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1929}
+    spritePosition: {x: 164, y: 254}
+  - name: brazo negro der
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 1657
+      width: 214
+      height: 107
+    spriteID: 07353ccf81b7a7049930276cd0f237cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 1657}
+    spritePosition: {x: 164, y: 254}
+  - name: brazo der gris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 1309
+      width: 214
+      height: 110
+    spriteID: b2dcd84706bf54745a6f994c83959a11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 295, y: 1309}
+    spritePosition: {x: 165, y: 254}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: brazo izq
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 66802ad5bc8dd46468bf6657968c851a
+    layerID: 27
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: brazo izq
+    spriteName: brazo izq
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2bfc83db6c84a6b42970f255971ae105
+    layerID: 11
+    mosaicPosition: {x: 295, y: 1427}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq negro
+    spriteName: brazo izq negro
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dd34d07426dbf6648a0861284427296e
+    layerID: 67
+    mosaicPosition: {x: 295, y: 1182}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo izq gris
+    spriteName: brazo izq gris
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 55e99c0b2676d6a4882827886998ffb0
+    layerID: 43
+    mosaicPosition: {x: 295, y: 1542}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cabeza
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 890f0e42ab930294bb23e3147e9540e6
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Cabeza
+    spriteName: Cabeza
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 2cb8633ed3560bf4ea985f3dfbe044e8
+    layerID: 26
+    mosaicPosition: {x: 4, y: 786}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza habla
+    spriteName: cabeza habla
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 0d657a2ca11a9a9429c9188e2716e030
+    layerID: 51
+    mosaicPosition: {x: 4, y: 1167}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza  habla negra
+    spriteName: cabeza  habla negra
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8d0ad4515efdbf547bc4d68603982824
+    layerID: 74
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza negra
+    spriteName: cabeza negra
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 7293bebdaccad444c8105a48eda8de7a
+    layerID: 64
+    mosaicPosition: {x: 4, y: 395}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza gris suspiro
+    spriteName: cabeza gris suspiro
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 695e1282f9ca52b4aa06550cb33847e7
+    layerID: 75
+    mosaicPosition: {x: 4, y: 1548}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cabeza gris
+    spriteName: cabeza gris
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 8ccfaa4219894e3469fc714d84218229
+    layerID: 59
+    mosaicPosition: {x: 295, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7d0b9f90f80b1d14b88ba160828fd804
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cuerpo
+    spriteName: cuerpo
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 46e30245f36a24d48ae0b967d9ac3a57
+    layerID: 13
+    mosaicPosition: {x: 295, y: 660}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo negro
+    spriteName: cuerpo negro
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 080cc98f6c066f24f9313d83dc937f79
+    layerID: 69
+    mosaicPosition: {x: 295, y: 385}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cuerpo gris
+    spriteName: cuerpo gris
+    isGroup: 0
+    parentIndex: 11
+    spriteID: bc1c669e49eb21f4f93bd1907aef6919
+    layerID: 47
+    mosaicPosition: {x: 295, y: 921}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pierna izq
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 07352bb670f6e8d43b92c8eb8c3e0dcd
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: pierna izq
+    spriteName: pierna izq
+    isGroup: 0
+    parentIndex: 15
+    spriteID: e384b2f4e1e5e2444a3f85ab850ff2e7
+    layerID: 21
+    mosaicPosition: {x: 426, y: 1772}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pierna izq negro
+    spriteName: pierna izq negro
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 50e9de2ee4ad19c45a0af48933bda453
+    layerID: 72
+    mosaicPosition: {x: 295, y: 1772}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pierna izq gris
+    spriteName: pierna izq gris
+    isGroup: 0
+    parentIndex: 15
+    spriteID: c070435e07640b3478908c69630229a7
+    layerID: 54
+    mosaicPosition: {x: 572, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pierna der
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9cd0b37eca6639f419df995cd7cd3ed6
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: pierna der
+    spriteName: pierna der
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 91a7830975484314bba161308b84f03a
+    layerID: 15
+    mosaicPosition: {x: 468, y: 921}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pierna der negra
+    spriteName: pierna der negra
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 4b4fc8d7bded2644188ab76e906b0284
+    layerID: 71
+    mosaicPosition: {x: 468, y: 660}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: pierna der gris
+    spriteName: pierna der gris
+    isGroup: 0
+    parentIndex: 19
+    spriteID: defd71151d03b2e4ea7fc9c6183646bf
+    layerID: 56
+    mosaicPosition: {x: 474, y: 385}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo der
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1e2cbb77c594d0941a2fb6357b4b36a2
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: brazo der
+    spriteName: brazo der
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 14cb1be7b31eb8a46ad3a0278075337a
+    layerID: 20
+    mosaicPosition: {x: 4, y: 1929}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo negro der
+    spriteName: brazo negro der
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 07353ccf81b7a7049930276cd0f237cb
+    layerID: 68
+    mosaicPosition: {x: 295, y: 1657}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: brazo der gris
+    spriteName: brazo der gris
+    isGroup: 0
+    parentIndex: 23
+    spriteID: b2dcd84706bf54745a6f994c83959a11
+    layerID: 58
+    mosaicPosition: {x: 295, y: 1309}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
