@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Hola1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 76fb55ba-b426-4c95-b87b-8e16d348f4e8
+    PortName: Next
+    TargetNodeGuid: b00e6534-e876-402e-a677-ec6d99e50432
+  - BaseNodeGuid: b00e6534-e876-402e-a677-ec6d99e50432
+    PortName: Next Dialog
+    TargetNodeGuid: aabe7055-859f-4921-bed4-9d3aab45d78c
+  - BaseNodeGuid: aabe7055-859f-4921-bed4-9d3aab45d78c
+    PortName: Next Dialog
+    TargetNodeGuid: e18a0056-34c5-473d-8ce9-21b0f2c63700
+  - BaseNodeGuid: e18a0056-34c5-473d-8ce9-21b0f2c63700
+    PortName: Next Dialog
+    TargetNodeGuid: beb3e2f3-5a51-4875-8938-b54ccbf54539
+  DialogNodes:
+  - Guid: b00e6534-e876-402e-a677-ec6d99e50432
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Hola compa\xF1ero! No me suena haberte visto por aqu\xED antes
+        \xBFeres nuevo, verdad?"
+    Position: {x: 213, y: 150}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: aabe7055-859f-4921-bed4-9d3aab45d78c
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Nos encontramos ahora mismo en el<color=orange> Claro de la Imaginaci\xF3n</color>
+        pero si quieres ayudar, nuestros compa\xF1eros del<color=orange> Lago de
+        los Sentimientos</color> est\xE1n trayendo escasos recursos a la planta central."
+    Position: {x: 534, y: 150}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: e18a0056-34c5-473d-8ce9-21b0f2c63700
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "El<color=orange> Lago</color> se encuentra al sudeste de aqu\xED,
+        pasando la<color=orange> Planta"
+    Position: {x: 854, y: 150}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: beb3e2f3-5a51-4875-8938-b54ccbf54539
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Buena suerte!"
+    Position: {x: 1185, y: 150}
+    Type: 1
+    Choices:
+    - Next Dialog

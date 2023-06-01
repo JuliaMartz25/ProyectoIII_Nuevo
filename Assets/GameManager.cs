@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //coger el objeto cuando empiece la conversacion, y cuando termine, elimino el collider y lo suelto 
+    private TextMeshProUGUI text;
+    [SerializeField] private string[] conversaciones;
     void Start()
     {
         
@@ -14,5 +17,16 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void DictionaryAdd()
+    {
+
+        switch (text.text)
+        {
+            case "¡Buena suerte!":
+            default:
+                break;
+        }
     }
 }

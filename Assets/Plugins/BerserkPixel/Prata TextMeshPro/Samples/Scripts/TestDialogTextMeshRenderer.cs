@@ -15,7 +15,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
         [SerializeField] private Image dialogRightImage;
         [SerializeField] private Transform choicesContainer;
         [SerializeField] private GameObject choiceButtonPrefab;
-        [SerializeField] private float typewriterSpeed = 10;
+        [SerializeField] private float typewriterSpeed = 30;
 
         public static bool CanSpace = true;
 
@@ -25,16 +25,16 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
             {
                 if (Input.GetMouseButtonDown(1))
                 {
-                    typewriterSpeed = 20f;
+                    typewriterSpeed = 40f;
                 }
                 if (Input.GetMouseButtonUp(1))
                 {
-                    typewriterSpeed = 10;
+                    typewriterSpeed = 30f;
                 }
             }
             if (CanSpace == false)
             {
-                typewriterSpeed = 10;
+                typewriterSpeed = 30f;
             }
         }
         private IEnumerator TypeText(string textToType, TMP_Text textLabel)
@@ -61,7 +61,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
                 }
                 if (currentChar == '>')
                 {
-                    typewriterSpeed = 10;
+                    typewriterSpeed = 30f;
                     currentIndex++;
                 }
                 textLabel.text = textToType.Substring(0, charIndex);
