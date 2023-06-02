@@ -431,18 +431,6 @@ MonoBehaviour:
   OnDetection:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 36860013}
-        m_TargetAssemblyTypeName: DialogBubble, Assembly-CSharp-firstpass
-        m_MethodName: HideBubble
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1461390005}
         m_TargetAssemblyTypeName: Project.Scripts.Player.PlayerDialogInteractor,
           Assembly-CSharp-firstpass
@@ -480,6 +468,19 @@ MonoBehaviour:
       - m_Target: {fileID: 36860013}
         m_TargetAssemblyTypeName: DialogBubble, Assembly-CSharp-firstpass
         m_MethodName: HideBubble
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1461390005}
+        m_TargetAssemblyTypeName: Project.Scripts.Player.PlayerDialogInteractor,
+          Assembly-CSharp-firstpass
+        m_MethodName: destroyDialogue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1563,6 +1564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13306799fdd87f447b9e3735aea9523a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 2093194903}
   conversaciones: []
 --- !u!4 &830183633
 Transform:
@@ -2933,6 +2935,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2093194903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5181053186047771498, guid: 23003e5dd5b4b3c4a82c9b1d875b65d0, type: 3}
+  m_PrefabInstance: {fileID: 703270059}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2107053866
 GameObject:
   m_ObjectHideFlags: 0

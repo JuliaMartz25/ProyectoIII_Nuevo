@@ -6,9 +6,10 @@ namespace Project.Scripts.Player
     public class PlayerDialogInteractor : MonoBehaviour
     {
         private Interaction interaction;
-
         private PlayerInput playerInput;
         private float coolDown;
+        public static Collider2D col;
+        
 
         private void Awake()
         {
@@ -35,7 +36,20 @@ namespace Project.Scripts.Player
             if (interaction != null)
             {
                 DialogManager.Instance.Talk(interaction);
+                
             }
+        }
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.layer == 6&& col ==null)
+            {
+                col = collision;
+                print("cogido collider");
+            }
+        }
+        public void destroyDialogue()
+        {
+            Destroy(col);
         }
     }
 }

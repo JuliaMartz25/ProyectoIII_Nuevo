@@ -81,9 +81,9 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
         {
             authorText.text = dialog.character.characterName;
             StartCoroutine(TypeText(dialog.text, dialogText));
-            dialogLeftImage.preserveAspect = true;
-            dialogRightImage.preserveAspect = true;
-            if (dialog.character.isPlayer)
+            /*dialogLeftImage.preserveAspect = true;
+            dialogRightImage.preserveAspect = true;*/
+           /* if (dialog.character.isPlayer)
             {
                 dialogLeftImage.gameObject.SetActive(true);
                 dialogLeftImage.sprite = dialog.GetImage();
@@ -94,7 +94,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
                 dialogRightImage.gameObject.SetActive(true);
                 dialogRightImage.sprite = dialog.GetImage();
                 dialogLeftImage.gameObject.SetActive(false);
-            }
+            }*/
 
             if (dialog.choices.Count > 1)
             {
