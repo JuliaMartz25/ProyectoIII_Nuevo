@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: PuenteTutorial
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 4bac2632-9f6e-4e3c-bb4d-0a923f80d94b
+    PortName: Next
+    TargetNodeGuid: ffe31ac2-8181-4624-b296-f2bbb077c0d0
+  DialogNodes:
+  - Guid: ffe31ac2-8181-4624-b296-f2bbb077c0d0
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Estoy detectando altos niveles emocionales\u2026 El<color=orange>
+        medidor</color> que he implementado en el robot me ayudar\xE1 a saber el<color=orange>
+        estado mental</color> de la cabeza en la que est\xE9."
+    Position: {x: 256, y: 157}
+    Type: 1
+    Choices:
+    - Next Dialog

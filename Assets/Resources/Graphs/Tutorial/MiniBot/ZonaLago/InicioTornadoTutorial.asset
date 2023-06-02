@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: InicioTornadoTutorial
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: a6fdfaed-fd23-453f-a741-a6acf529bb44
+    PortName: Next
+    TargetNodeGuid: b04535db-279c-4a0d-938d-baf1eb59a761
+  - BaseNodeGuid: b04535db-279c-4a0d-938d-baf1eb59a761
+    PortName: Next Dialog
+    TargetNodeGuid: 5895b3c1-1521-44d8-a80c-574717f8a2f4
+  - BaseNodeGuid: 5895b3c1-1521-44d8-a80c-574717f8a2f4
+    PortName: Next Dialog
+    TargetNodeGuid: 41c07a18-a44d-4dae-ab7a-9ca22978a7a9
+  DialogNodes:
+  - Guid: b04535db-279c-4a0d-938d-baf1eb59a761
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "El tornado que he visto en el r\xEDo lo han creado estos deprimidos
+        habitantes\u2026"
+    Position: {x: 291, y: 183}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 5895b3c1-1521-44d8-a80c-574717f8a2f4
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xBFC\xF3mo es posible?"
+    Position: {x: 608, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 41c07a18-a44d-4dae-ab7a-9ca22978a7a9
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Tengo que ayudarles!"
+    Position: {x: 900, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog

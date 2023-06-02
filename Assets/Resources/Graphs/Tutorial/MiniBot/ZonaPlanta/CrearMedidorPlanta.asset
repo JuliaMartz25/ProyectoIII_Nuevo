@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: CrearMedidorPlanta
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: cc6a73ee-4b09-4307-aac6-7a588c04a8a9
+    PortName: Next
+    TargetNodeGuid: f566c1a1-612d-42a1-b2ca-6fd4fe0d9f59
+  - BaseNodeGuid: f566c1a1-612d-42a1-b2ca-6fd4fe0d9f59
+    PortName: Next Dialog
+    TargetNodeGuid: 295e98de-a74c-43cf-9fe2-e7ca3b30d752
+  DialogNodes:
+  - Guid: f566c1a1-612d-42a1-b2ca-6fd4fe0d9f59
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Estoy detectando altos niveles emocionales\u2026"
+    Position: {x: 311, y: 105}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 295e98de-a74c-43cf-9fe2-e7ca3b30d752
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "El medidor que he implementado en el robot me ayudar\xE1 a saber
+        el estado mental de la cabeza en la que est\xE9"
+    Position: {x: 617, y: 105}
+    Type: 1
+    Choices:
+    - Next Dialog

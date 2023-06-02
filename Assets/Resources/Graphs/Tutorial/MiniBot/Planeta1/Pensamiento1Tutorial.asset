@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Pensamiento1Tutorial
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: d9a58ce0-8474-49b5-8c56-d2e1cdb64926
+    PortName: Next
+    TargetNodeGuid: 177da6f9-5b9a-4d5a-8175-ebca351f3f19
+  - BaseNodeGuid: 177da6f9-5b9a-4d5a-8175-ebca351f3f19
+    PortName: Next Dialog
+    TargetNodeGuid: e7b015c4-4964-4f5e-b746-cff5e62a23dc
+  DialogNodes:
+  - Guid: 177da6f9-5b9a-4d5a-8175-ebca351f3f19
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Guau\u2026"
+    Position: {x: 198, y: 166}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: e7b015c4-4964-4f5e-b746-cff5e62a23dc
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Este debe ser uno de los habitantes de mi mente que se encarga
+        de que todo funcione correctamente en mi cabeza. Me pregunto qu\xE9 estar\xE1
+        pasando en ese<color=orange> Lago</color>."
+    Position: {x: 518, y: 186}
+    Type: 1
+    Choices:
+    - Next Dialog

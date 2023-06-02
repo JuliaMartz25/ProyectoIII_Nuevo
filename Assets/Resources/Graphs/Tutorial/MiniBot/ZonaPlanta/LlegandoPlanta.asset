@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: LlegandoPlanta
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: e63ab41d-0876-4a68-9910-9f80f3473277
+    PortName: Next
+    TargetNodeGuid: 124c0394-bf96-4887-951a-c5d180634f05
+  - BaseNodeGuid: 124c0394-bf96-4887-951a-c5d180634f05
+    PortName: Next Dialog
+    TargetNodeGuid: 13df770e-d704-49c0-af25-9fd73096ac93
+  - BaseNodeGuid: 13df770e-d704-49c0-af25-9fd73096ac93
+    PortName: Next Dialog
+    TargetNodeGuid: 97da7608-9ea9-4440-8f27-c54af9a2cbcd
+  DialogNodes:
+  - Guid: 124c0394-bf96-4887-951a-c5d180634f05
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Esta<color=orange> Planta</color> parece tener el control de todo
+        lo que pasa aqu\xED, y parece que los habitantes est\xE1n muy interesados
+        en cuidarla."
+    Position: {x: 241, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 13df770e-d704-49c0-af25-9fd73096ac93
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Parece que todos los recursos, es decir, la informaci\xF3n del
+        exterior la procesa esta<color=orange> Planta Mental</color>."
+    Position: {x: 549, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 97da7608-9ea9-4440-8f27-c54af9a2cbcd
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: Voy a usar el robot para escanear la zona y hacer un<color=orange>
+        mapa general</color> del planeta.
+    Position: {x: 867, y: 203}
+    Type: 1
+    Choices:
+    - Next Dialog

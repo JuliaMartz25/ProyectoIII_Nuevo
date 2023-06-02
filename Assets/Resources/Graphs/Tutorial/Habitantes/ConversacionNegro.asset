@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: ConversacionNegro
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 32e1a688-442b-4002-aefa-4efe2105bb31
+    PortName: Next
+    TargetNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+  - BaseNodeGuid: e6f4eed7-a576-403b-a18a-7570c057d9b9
+    PortName: Next Dialog
+    TargetNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+  - BaseNodeGuid: 0c756ce8-1699-412b-b00b-7b2607443927
+    PortName: Next Dialog
+    TargetNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+  - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+    PortName: "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando al
+      lago?"
+    TargetNodeGuid: 4f33356c-32cf-4c2f-b918-d87cc5e25cc8
+  - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+    PortName: "No deber\xEDas dejar de llorar?"
+    TargetNodeGuid: e6f4eed7-a576-403b-a18a-7570c057d9b9
+  - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+    PortName: "Mirar sin m\xE1s el Lago no va a solucionar nada"
+    TargetNodeGuid: 0c756ce8-1699-412b-b00b-7b2607443927
+  - BaseNodeGuid: 4f33356c-32cf-4c2f-b918-d87cc5e25cc8
+    PortName: Next Dialog
+    TargetNodeGuid: a513f485-78a7-47b4-934d-71c1494b8131
+  - BaseNodeGuid: a513f485-78a7-47b4-934d-71c1494b8131
+    PortName: Next Dialog
+    TargetNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
+  - BaseNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
+    PortName: Next Dialog
+    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+  - BaseNodeGuid: 92257e9c-38c9-47d1-a9dd-a44159267789
+    PortName: Next Dialog
+    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+  - BaseNodeGuid: deaaa821-6d27-494f-9fbb-9347313494b0
+    PortName: Next Dialog
+    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+  - BaseNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+    PortName: Espera a que se te pase con el tiempo
+    TargetNodeGuid: 5ac38d56-dd54-4e4d-8f98-dbfdcdf0dd80
+  - BaseNodeGuid: 5ac38d56-dd54-4e4d-8f98-dbfdcdf0dd80
+    PortName: Next Dialog
+    TargetNodeGuid: 92257e9c-38c9-47d1-a9dd-a44159267789
+  - BaseNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+    PortName: "Que tonter\xEDa mirar el Lago para calmarse"
+    TargetNodeGuid: 3e34708c-882c-4be4-8360-9653656e0ce9
+  - BaseNodeGuid: 3e34708c-882c-4be4-8360-9653656e0ce9
+    PortName: Next Dialog
+    TargetNodeGuid: deaaa821-6d27-494f-9fbb-9347313494b0
+  - BaseNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+    PortName: 'Te entiendo y no te preocupes '
+    TargetNodeGuid: 08a7e38f-53a5-4b3c-aa23-6b66f78d9044
+  - BaseNodeGuid: 08a7e38f-53a5-4b3c-aa23-6b66f78d9044
+    PortName: Next Dialog
+    TargetNodeGuid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+  - BaseNodeGuid: 077a5280-a5ee-47e3-a511-a9ed2441865a
+    PortName: Next Dialog
+    TargetNodeGuid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+  - BaseNodeGuid: 55e10317-ec02-495d-968d-eb161fb6aefb
+    PortName: Next Dialog
+    TargetNodeGuid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+  - BaseNodeGuid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+    PortName: Jajajaja
+    TargetNodeGuid: f72c2468-7329-4d91-b58a-a52e001b5bbe
+  - BaseNodeGuid: f72c2468-7329-4d91-b58a-a52e001b5bbe
+    PortName: Next Dialog
+    TargetNodeGuid: c1ad2094-fee7-408e-87c9-676fa1e47f3c
+  - BaseNodeGuid: c1ad2094-fee7-408e-87c9-676fa1e47f3c
+    PortName: Next Dialog
+    TargetNodeGuid: 0a4b8d17-c650-4391-a914-cb67047d3086
+  - BaseNodeGuid: 0a4b8d17-c650-4391-a914-cb67047d3086
+    PortName: Next Dialog
+    TargetNodeGuid: 077a5280-a5ee-47e3-a511-a9ed2441865a
+  - BaseNodeGuid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+    PortName: "\xA1Para eso estamos los amigos!"
+    TargetNodeGuid: 9899139b-83f7-4ec6-ad7a-02d8e4131625
+  - BaseNodeGuid: 9899139b-83f7-4ec6-ad7a-02d8e4131625
+    PortName: Next Dialog
+    TargetNodeGuid: f5830d7a-58d9-4d88-8404-b7785356c7fb
+  - BaseNodeGuid: f5830d7a-58d9-4d88-8404-b7785356c7fb
+    PortName: Next Dialog
+    TargetNodeGuid: 8bf37f3c-cec4-4271-8f2b-0da3923d7e30
+  - BaseNodeGuid: 8bf37f3c-cec4-4271-8f2b-0da3923d7e30
+    PortName: Next Dialog
+    TargetNodeGuid: 4fc4c39c-fd8b-404a-b1c0-fc42f27b05d2
+  - BaseNodeGuid: 4fc4c39c-fd8b-404a-b1c0-fc42f27b05d2
+    PortName: Next Dialog
+    TargetNodeGuid: 606e8bc3-4325-44f2-836a-abc8f2c676b1
+  - BaseNodeGuid: 606e8bc3-4325-44f2-836a-abc8f2c676b1
+    PortName: Next Dialog
+    TargetNodeGuid: bebe8de6-8a77-4f97-b651-5db74efb54b8
+  - BaseNodeGuid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+    PortName: "Tranquilo, pero a la pr\xF3xima s\xE9 m\xE1s fuerte"
+    TargetNodeGuid: 3c2cc7ee-5fd4-40f1-a899-2ff2bf7a127b
+  - BaseNodeGuid: 3c2cc7ee-5fd4-40f1-a899-2ff2bf7a127b
+    PortName: Next Dialog
+    TargetNodeGuid: cf4ac0c8-e24f-4af6-afb7-e260064d8804
+  - BaseNodeGuid: cf4ac0c8-e24f-4af6-afb7-e260064d8804
+    PortName: Next Dialog
+    TargetNodeGuid: 7a0537dd-1927-4484-b9b7-f47b57672735
+  - BaseNodeGuid: 7a0537dd-1927-4484-b9b7-f47b57672735
+    PortName: Next Dialog
+    TargetNodeGuid: 55e10317-ec02-495d-968d-eb161fb6aefb
+  DialogNodes:
+  - Guid: 7539b16d-98c6-425a-b575-2e0a955114b7
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: <color=black>Snifff  snifff
+    Position: {x: 298, y: 178}
+    Type: 2
+    Choices:
+    - "Mirar sin m\xE1s el Lago no va a solucionar nada"
+    - "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando al lago?"
+    - "No deber\xEDas dejar de llorar?"
+  - Guid: 4f33356c-32cf-4c2f-b918-d87cc5e25cc8
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando
+        al lago?"
+    Position: {x: 1344, y: 109}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: e6f4eed7-a576-403b-a18a-7570c057d9b9
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Lo siento, pero no me siento capaz de nada ahora mismo\u2026"
+    Position: {x: 1270, y: 406}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 0c756ce8-1699-412b-b00b-7b2607443927
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Lo siento, pero no me siento capaz de nada ahora mismo\u2026"
+    Position: {x: 1344, y: -177}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: a513f485-78a7-47b4-934d-71c1494b8131
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Lo siento, pero no me siento capaz de nada ahora mismo\u2026"
+    Position: {x: 1682, y: 109}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: bc4ae153-903a-4552-8813-14b2d607cb8d
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Siempre vengo aqu\xED a descansar mirando el Lago, y con todo
+        lo que est\xE1 pasando en el planeta \xFAltimamente, necesitaba m\xE1s que
+        nunca calmarme y coger fuerzas mirando la corriente."
+    Position: {x: 1988, y: 109}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 28303a27-686a-481f-87e6-c956313366e6
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Pero el Lago est\xE1 hecho un desastre y no me tranquiliza para
+        nada, no puedo m\xE1s\u2026"
+    Position: {x: 2323, y: 109}
+    Type: 2
+    Choices:
+    - 'Te entiendo y no te preocupes '
+    - "Que tonter\xEDa mirar el Lago para calmarse"
+    - Espera a que se te pase con el tiempo
+  - Guid: 5ac38d56-dd54-4e4d-8f98-dbfdcdf0dd80
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: Si no puedes evitar estar mal, espera a que se te pase con el tiempo
+    Position: {x: 2992, y: 434}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 92257e9c-38c9-47d1-a9dd-a44159267789
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Si t\xFA lo dices\u2026"
+    Position: {x: 3317, y: 434}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3e34708c-882c-4be4-8360-9653656e0ce9
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Que tonter\xEDa mirar el r\xEDo para calmarse"
+    Position: {x: 3014, y: 181}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: deaaa821-6d27-494f-9fbb-9347313494b0
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Si t\xFA lo dices\u2026"
+    Position: {x: 3317, y: 181}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 08a7e38f-53a5-4b3c-aa23-6b66f78d9044
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Te entiendo y no te preocupes, tienes todo el derecho a sentirte
+        as\xED con todo lo que est\xE1 pasando"
+    Position: {x: 3014, y: -49}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 26855a7e-13c4-42b0-81ef-5676cd3dbb34
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Gracias, a veces s\xF3lo se necesita un poco de empat\xEDa y comprensi\xF3n
+        para dejar de \u201Cderrumbarse\u201D sobre uno mismo."
+    Position: {x: 3406, y: -149}
+    Type: 2
+    Choices:
+    - "Tranquilo, pero a la pr\xF3xima s\xE9 m\xE1s fuerte"
+    - "\xA1Para eso estamos los amigos!"
+    - Jajajaja
+  - Guid: f72c2468-7329-4d91-b58a-a52e001b5bbe
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Jajajaja, \xBFempat\xEDa y comprensi\xF3n? \xA1Eso es para d\xE9biles!"
+    Position: {x: 4149, y: 18}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: c1ad2094-fee7-408e-87c9-676fa1e47f3c
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Eso no es cierto!"
+    Position: {x: 4569, y: 88}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 0a4b8d17-c650-4391-a914-cb67047d3086
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1D\xE9jame en paz y vete!"
+    Position: {x: 4873, y: 133}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 077a5280-a5ee-47e3-a511-a9ed2441865a
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Con esas respuestas vac\xEDas no me vas a ayudar ni a m\xED
+        ni a nadie!"
+    Position: {x: 5156, y: 204}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 9899139b-83f7-4ec6-ad7a-02d8e4131625
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "De nada, \xA1para eso estamos los amigos! Y recuerda, por muy
+        mal que veas la situaci\xF3n a tu alrededor; nunca est\xE1s solo y nunca
+        todo es tan horrible."
+    Position: {x: 4107, y: -145}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: f5830d7a-58d9-4d88-8404-b7785356c7fb
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Cuando est\xE9s mal, piensa en las cosas buenas que a\xFAn tienes
+        y busca apoyo en gente de confianza como amigos o familia."
+    Position: {x: 4431, y: -142}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 8bf37f3c-cec4-4271-8f2b-0da3923d7e30
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Ellos te ayudar\xE1n cuando lo necesites!"
+    Position: {x: 4773, y: -139}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 4fc4c39c-fd8b-404a-b1c0-fc42f27b05d2
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Vale, es verdad\u2026"
+    Position: {x: 5086, y: -139}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 606e8bc3-4325-44f2-836a-abc8f2c676b1
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Tienes raz\xF3n!\nNo todo el planeta est\xE1 perdido a\xFAn."
+    Position: {x: 5336, y: -60}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: bebe8de6-8a77-4f97-b651-5db74efb54b8
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Adem\xE1s tengo a mis compa\xF1eros conmigo, as\xED que intentar\xE9
+        pensar en lo positivo y seguir adelante\u2026"
+    Position: {x: 5642, y: -27}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3c2cc7ee-5fd4-40f1-a899-2ff2bf7a127b
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Tranquilo, pero a la pr\xF3xima s\xE9 m\xE1s fuerte. No permitas
+        que sean los dem\xE1s los que te tengan que animar para seguir adelante"
+    Position: {x: 4107, y: -372}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: cf4ac0c8-e24f-4af6-afb7-e260064d8804
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Eso no es cierto!"
+    Position: {x: 4415, y: -369}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 7a0537dd-1927-4484-b9b7-f47b57672735
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1D\xE9jame en paz y vete!"
+    Position: {x: 4684, y: -337}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 55e10317-ec02-495d-968d-eb161fb6aefb
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Con esas respuestas vac\xEDas no me vas a ayudar ni a m\xED
+        ni a nadie!"
+    Position: {x: 5015, y: -375}
+    Type: 1
+    Choices:
+    - Next Dialog

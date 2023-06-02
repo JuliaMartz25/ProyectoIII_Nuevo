@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: TerremotoTutorial
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 906ac842-4906-497b-9f69-6702a183f7ea
+    PortName: Next
+    TargetNodeGuid: e8c58713-5088-4558-9143-fdf62dee0104
+  - BaseNodeGuid: e8c58713-5088-4558-9143-fdf62dee0104
+    PortName: Next Dialog
+    TargetNodeGuid: ba564cc1-a661-45a3-b44a-b3e03461fad7
+  - BaseNodeGuid: ba564cc1-a661-45a3-b44a-b3e03461fad7
+    PortName: Next Dialog
+    TargetNodeGuid: 6e64f69d-f43a-4f16-a0f6-f603be32e3be
+  DialogNodes:
+  - Guid: e8c58713-5088-4558-9143-fdf62dee0104
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xBF\xA1QU\xC9 HA SIDO ESO!?"
+    Position: {x: 255, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: ba564cc1-a661-45a3-b44a-b3e03461fad7
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xBFEse habitante ha tra\xEDdo un<color=orange> recurso contaminado</color>
+        a la<color=orange> Planta Mental</color>? Definitivamente, algo no va bien
+        en ese<color=orange> Lago</color>."
+    Position: {x: 515, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 6e64f69d-f43a-4f16-a0f6-f603be32e3be
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "\xA1Tengo que seguir avanzando!"
+    Position: {x: 807, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
