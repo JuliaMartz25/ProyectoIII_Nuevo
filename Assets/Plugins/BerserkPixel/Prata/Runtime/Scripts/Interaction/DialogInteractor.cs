@@ -11,7 +11,7 @@ namespace BerserkPixel.Prata
         [SerializeField] private Transform origin;
         [SerializeField] private LayerMask targetMask;
 
-        [SerializeField] private float timeForReset = 2f;
+        [SerializeField] private float timeForReset;
 
         public UnityEvent<Interaction> OnDetection;
         public UnityEvent OnCancelled;
@@ -25,6 +25,7 @@ namespace BerserkPixel.Prata
         private bool _dialogEnabled;
 
         private Coroutine _resetDialog;
+        
 
         private void LateUpdate()
         {
@@ -46,15 +47,16 @@ namespace BerserkPixel.Prata
                             OnDetection?.Invoke(_interaction);
                         }
                     }
-                    else if (_interaction != null && !_interaction.HasAnyDialogLeft())
-                    {
-                        if (_dialogEnabled)
-                        {
-                            _dialogEnabled = false;
-                            OnNoMoreDialog?.Invoke();
-                            _resetDialog = StartCoroutine(ResetDialog());
-                        }
-                    }
+                    //resetea los dialogos despues de un tiemop (seugramente quitar)
+                //    else if (_interaction != null && !_interaction.HasAnyDialogLeft())
+                //    {
+                //        if (_dialogEnabled)
+                //        {
+                //            _dialogEnabled = false;
+                //            OnNoMoreDialog?.Invoke();
+                //            _resetDialog = StartCoroutine(ResetDialog());
+                //        }
+                //    }
                 }
             }
             else
@@ -74,7 +76,7 @@ namespace BerserkPixel.Prata
 
                     CancelResetDialog();
 
-                    _resetDialog = StartCoroutine(ResetDialog());
+                  //  _resetDialog = StartCoroutine(ResetDialog());
                 }
             }
         }
@@ -87,7 +89,7 @@ namespace BerserkPixel.Prata
                 _resetDialog = null;
             }
         }
-
+        //resetea los dialogos
         private IEnumerator ResetDialog()
         {
             yield return new WaitForSeconds(timeForReset);
@@ -138,7 +140,7 @@ namespace BerserkPixel.Prata
                 throw new MissingReferenceException("The Interaction mode is not valid. Please choose a valid one.");
             }
         }
-
+/*
         private void OnDrawGizmos()
         {
             if (origin != null)
@@ -146,6 +148,6 @@ namespace BerserkPixel.Prata
                 Gizmos.color = new Color(0, 0, 1, 0.1f);
                 Gizmos.DrawSphere(origin.position, detectionRadius);
             }
-        }
+        }*/
     }
 }
