@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
 
     public void Update()
     {
-        if(Empezar == true)
+        if(Empezar)
         {
             tiempo -= Time.deltaTime;
             tiempoTexto.text = "" + tiempo.ToString("f0");
@@ -37,7 +37,6 @@ public class Timer : MonoBehaviour
             Enemigos.SetActive(true);
             Collider.SetActive(true);
         }
-
     }
 
     public void EmpezarTemporizador()
@@ -54,7 +53,6 @@ public class Timer : MonoBehaviour
         TimerScene.SetActive(true);
         PuntoMov.SetActive(true);
         Empezar = true;
-        PlayerFollow.Comenzar = true;
         PlayerFollow.Comenzar = true;
         Destroy(preparate);
         Destroy(exclamacion);
