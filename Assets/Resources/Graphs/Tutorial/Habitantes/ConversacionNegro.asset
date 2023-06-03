@@ -23,17 +23,14 @@ MonoBehaviour:
     PortName: Next Dialog
     TargetNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
   - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
-    PortName: "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando al
-      lago?"
-    TargetNodeGuid: 4f33356c-32cf-4c2f-b918-d87cc5e25cc8
-  - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
     PortName: "No deber\xEDas dejar de llorar?"
     TargetNodeGuid: e6f4eed7-a576-403b-a18a-7570c057d9b9
   - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
     PortName: "Mirar sin m\xE1s el Lago no va a solucionar nada"
     TargetNodeGuid: 0c756ce8-1699-412b-b00b-7b2607443927
-  - BaseNodeGuid: 4f33356c-32cf-4c2f-b918-d87cc5e25cc8
-    PortName: Next Dialog
+  - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
+    PortName: "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando al
+      lago?"
     TargetNodeGuid: a513f485-78a7-47b4-934d-71c1494b8131
   - BaseNodeGuid: a513f485-78a7-47b4-934d-71c1494b8131
     PortName: Next Dialog
@@ -125,16 +122,6 @@ MonoBehaviour:
     - "Mirar sin m\xE1s el Lago no va a solucionar nada"
     - "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando al lago?"
     - "No deber\xEDas dejar de llorar?"
-  - Guid: 4f33356c-32cf-4c2f-b918-d87cc5e25cc8
-    Content:
-      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
-      emotion: 0
-      DialogText: "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando
-        al lago?"
-    Position: {x: 1344, y: 109}
-    Type: 1
-    Choices:
-    - Next Dialog
   - Guid: e6f4eed7-a576-403b-a18a-7570c057d9b9
     Content:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973

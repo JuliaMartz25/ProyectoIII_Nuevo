@@ -76,7 +76,7 @@ namespace BerserkPixel.Prata
 
                     CancelResetDialog();
 
-                  //  _resetDialog = StartCoroutine(ResetDialog());
+                    _resetDialog = StartCoroutine(ResetDialog());
                 }
             }
         }
