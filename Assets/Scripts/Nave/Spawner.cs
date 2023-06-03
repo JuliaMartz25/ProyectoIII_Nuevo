@@ -15,11 +15,10 @@ public class Spawner : MonoBehaviour
 
     [SerializeField] private float Segundos;
 
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnObjects()); 
-        StartCoroutine("Destruir");
+        StartCoroutine(Destruir());
     }
 
     private IEnumerator SpawnObjects()

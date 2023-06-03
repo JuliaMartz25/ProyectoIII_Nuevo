@@ -69,7 +69,7 @@ public class PlayerFollow : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D col)
-    {
+    {//seguramente haya otra forma de hacerlo sin pasar por tantas tag's
         if(col.collider.CompareTag("MocoVerde"))
         {
             Mocotocado = true;
