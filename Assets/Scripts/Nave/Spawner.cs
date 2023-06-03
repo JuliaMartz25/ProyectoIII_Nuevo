@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-
+    //seguramente se pueda hacer que segun el nivel se cambien lso valores, aprovechando la variable static de los niveles que tiene PlayerFollow
     [SerializeField] GameObject[] Prefabs;
 
     [SerializeField] private float secondsSpawn = 0.3f;
@@ -15,11 +15,10 @@ public class Spawner : MonoBehaviour
 
     [SerializeField] private float Segundos;
 
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnObjects()); 
-        StartCoroutine("Destruir");
+        StartCoroutine(Destruir());
     }
 
     private IEnumerator SpawnObjects()

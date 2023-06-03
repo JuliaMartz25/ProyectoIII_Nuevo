@@ -28,19 +28,14 @@ public class PlayerFollow : MonoBehaviour
         MainCamera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
-
-
         Comenzar = false;
         Mocotocado = false;
     }
 
     void Update()
     {
-
         followMousePositionDelay(maxSpeed);
-
-        if (Mocotocado == true)
+        if (Mocotocado)
         {
             maxSpeed = 1f;
         }
@@ -49,7 +44,7 @@ public class PlayerFollow : MonoBehaviour
         {
             anim.SetBool("Volar", true);
         }
-
+        //flip del cursor
         if (transform.position.x > posAnteriorX)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
@@ -62,7 +57,7 @@ public class PlayerFollow : MonoBehaviour
         }
         posAnteriorX = transform.position.x;
     }
-
+    //seguramente ponerselo al character controller (si se gasta el del tutorial, sino aqui creo qeu esta bien)
     private void followMousePositionDelay(float maxSpeed)
     {
         transform.position = Vector2.MoveTowards(transform.position, GetWorldPositionFromMouse(), maxSpeed * Time.deltaTime);   
@@ -74,7 +69,7 @@ public class PlayerFollow : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D col)
-    {
+    {//seguramente haya otra forma de hacerlo sin pasar por tantas tag's
         if(col.collider.CompareTag("MocoVerde"))
         {
             Mocotocado = true;
@@ -125,25 +120,12 @@ public class PlayerFollow : MonoBehaviour
                 case 2:
                     Comenzar = false;
                     anim.SetBool("Volar", false);
-                    anim.SetBool("Moco_final2", true);
+                    anim.SetBool("Moco_final2", true);//preguntar si son animaciones diferentes
+                    break;
+                    default:
                     break;
             }
-            if (NivelActual == 0)
-            {
-               
-            }
-            if (NivelActual == 1)
-            {
-                Comenzar = false;
-                anim.SetBool("Volar", false);
-                anim.SetBool("Mocos_Final1", true);
-            }
-            if (NivelActual == 2)
-            {
-                Comenzar = false;
-                anim.SetBool("Volar", false);
-                anim.SetBool("Moco_final2", true);
-            }
+           
         }
 
         if (col.collider.CompareTag("Pelos"))
@@ -156,20 +138,21 @@ public class PlayerFollow : MonoBehaviour
     {
         if(collision.CompareTag("FueraEscena"))
         {
-            if (NivelActual == 0)
+            switch (NivelActual)
             {
-                SceneManager.LoadScene("Mocos");
+                case 0:
+                    SceneManager.LoadScene("Mocos");
+                    break;
+                case 1:
+                    SceneManager.LoadScene("MocosNivel1");
+                    break;
+                case 2:
+                    SceneManager.LoadScene("MocosNivel2");
+                    break;
+                default:
+                    break;
             }
-            if (NivelActual == 1)
-            {
-                SceneManager.LoadScene("MocosNivel1");
-            }
-            if (NivelActual == 2)
-            {
-                SceneManager.LoadScene("MocosNivel2");
-            }
-        }
-        
+        } 
     }
 
     private IEnumerator GolpeMoco()
@@ -182,7 +165,7 @@ public class PlayerFollow : MonoBehaviour
         mocoVerde.SetActive(false);
         mocoAzul.SetActive(false);
     }
-
+//seguramente quitar
     private void ActivarPanel()
     {
         ImageFinal.SetActive(true);
