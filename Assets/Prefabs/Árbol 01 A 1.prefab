@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26327318182261235}
   - component: {fileID: 1300189694854733160}
-  - component: {fileID: 3388400666582601325}
+  - component: {fileID: 5550922004513049940}
   m_Layer: 0
   m_Name: "\xC1rbol 01 A 1"
   m_TagString: Untagged
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!58 &3388400666582601325
-CircleCollider2D:
+--- !u!70 &5550922004513049940
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,6 +98,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.20458984, y: 1.3721886}
-  serializedVersion: 2
-  m_Radius: 1.0418892
+  m_Offset: {x: -0.15495764, y: 1.2794777}
+  m_Size: {x: 3.7402396, y: 1.5599458}
+  m_Direction: 1
