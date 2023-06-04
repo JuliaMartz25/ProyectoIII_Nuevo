@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using Project.Scripts.Player;
 
 namespace Plugins.BerserkPixel.Prata.Samples.Scripts
 {
@@ -103,6 +104,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
                 {
                     GameObject choiceButton = Instantiate(choiceButtonPrefab, choicesContainer);
                     choiceButton.GetComponentInChildren<TextMeshProUGUI>().text = choice;
+                    
                     choiceButton.GetComponent<Button>().onClick.AddListener(() =>
                     {
                         DialogManager.Instance.MakeChoice(dialog.guid, choice);
@@ -119,6 +121,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
 
         public override void Hide()
         {
+            PlayerDialogInteractor.pararInteraccionHastaPulsarBoton = true;
             RemoveChoices();
             container.SetActive(false);
         }

@@ -9,19 +9,20 @@ namespace Project.Scripts.Player
         private PlayerInput playerInput;
         private float coolDown;
         public static Collider2D col;
-
+        public static bool pararInteraccionHastaPulsarBoton;
 
         private void Awake()
         {
             playerInput = GetComponent<PlayerInput>();
+            pararInteraccionHastaPulsarBoton = true;
         }
 
         private void Update()
         {
             coolDown += 2 * Time.deltaTime;
-            if (interaction != null && playerInput.Interact && coolDown >= 1)
+            if (interaction != null && playerInput.Interact && coolDown >= 1&& pararInteraccionHastaPulsarBoton)
             {
-                Interact();
+                Interact(); // meter aqui algo para las opciones
                 coolDown = 0;
             }  
         }
@@ -42,7 +43,6 @@ namespace Project.Scripts.Player
             if (collision.gameObject.layer == 6 && col == null)
             {
                 col = collision;
-                print("cogido collider");    
             }
         }
         public void destroyDialogue()
@@ -52,12 +52,15 @@ namespace Project.Scripts.Player
         //quitar luego de las pruebas
         public void Reinicio()
         {
-           
             print("reinicio");
         }//quitar luego de las pruebas
         public void Cancelado()
         {
             print("cancelaod");
+        }
+        public void interactuado()
+        {
+            pararInteraccionHastaPulsarBoton = true;
         }
     }
 }

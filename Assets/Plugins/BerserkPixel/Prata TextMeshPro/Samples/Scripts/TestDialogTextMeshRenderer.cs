@@ -15,10 +15,8 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
         [SerializeField] private Image dialogRightImage;
         [SerializeField] private Transform choicesContainer;
         [SerializeField] private GameObject choiceButtonPrefab;
-        [SerializeField] private float typewriterSpeed = 30;
-
+        [SerializeField] private float typewriterSpeed = 30f;
         public static bool CanSpace = true;
-
         public void Update()
         {
             if (CanSpace == true)
@@ -81,6 +79,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
         {
             authorText.text = dialog.character.characterName;
             StartCoroutine(TypeText(dialog.text, dialogText));
+            //descomentar si se ponen imagenes
             /*dialogLeftImage.preserveAspect = true;
             dialogRightImage.preserveAspect = true;*/
            /* if (dialog.character.isPlayer)
@@ -107,9 +106,10 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
                     {
                         DialogManager.Instance.MakeChoice(dialog.guid, choice);
                     });
+                    
                 }
-
                 choicesContainer.gameObject.SetActive(true);
+
             }
             else
             {

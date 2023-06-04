@@ -141,6 +141,7 @@ namespace BerserkPixel.Prata
 
             if (dialog == null)
             {
+                
                 HideDialog();
                 return;
             }

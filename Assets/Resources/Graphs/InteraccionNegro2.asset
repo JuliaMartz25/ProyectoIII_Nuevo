@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: InteraccionNegro2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 055367d9-b445-4c67-a42f-9367a529bc3d
+    PortName: Next
+    TargetNodeGuid: 6998eb52-3234-4089-b4a0-c2ae139f3b63
+  DialogNodes:
+  - Guid: 6998eb52-3234-4089-b4a0-c2ae139f3b63
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: "Pero el Lago est\xE1 hecho un desastre y no me tranquiliza para
+        nada, no puedo m\xE1s\u2026"
+    Position: {x: 264, y: 216}
+    Type: 2
+    Choices:
+    - 'Te entiendo y no te preocupes '
+    - "Que tonter\xEDa mirar el Lago para calmarse"
+    - Espera a que se te pase con el tiempo

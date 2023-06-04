@@ -35,13 +35,13 @@ MonoBehaviour:
   - BaseNodeGuid: a513f485-78a7-47b4-934d-71c1494b8131
     PortName: Next Dialog
     TargetNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
-  - BaseNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
-    PortName: Next Dialog
-    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
   - BaseNodeGuid: 92257e9c-38c9-47d1-a9dd-a44159267789
     PortName: Next Dialog
     TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
   - BaseNodeGuid: deaaa821-6d27-494f-9fbb-9347313494b0
+    PortName: Next Dialog
+    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
+  - BaseNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
     PortName: Next Dialog
     TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
   - BaseNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
