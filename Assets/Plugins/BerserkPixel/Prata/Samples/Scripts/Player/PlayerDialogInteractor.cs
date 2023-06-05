@@ -16,17 +16,15 @@ namespace Project.Scripts.Player
             playerInput = GetComponent<PlayerInput>();
             pararInteraccionHastaPulsarBoton = true;
         }
-
         private void Update()
         {
             coolDown += 2 * Time.deltaTime;
-            if (interaction != null && playerInput.Interact && coolDown >= 1&& pararInteraccionHastaPulsarBoton)
+            if (interaction != null && playerInput.Interact && coolDown >= 1 && pararInteraccionHastaPulsarBoton)
             {
                 Interact(); // meter aqui algo para las opciones
                 coolDown = 0;
             }  
         }
-
         public void ReadyForInteraction(Interaction newInteraction)
         {
             interaction = newInteraction;

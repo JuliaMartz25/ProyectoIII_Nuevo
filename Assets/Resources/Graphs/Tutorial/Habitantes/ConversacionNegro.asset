@@ -23,7 +23,7 @@ MonoBehaviour:
     PortName: Next Dialog
     TargetNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
   - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
-    PortName: "No deber\xEDas dejar de llorar?"
+    PortName: "\xBFNo deber\xEDas dejar de llorar y ponerte a trabajar?"
     TargetNodeGuid: e6f4eed7-a576-403b-a18a-7570c057d9b9
   - BaseNodeGuid: 7539b16d-98c6-425a-b575-2e0a955114b7
     PortName: "Mirar sin m\xE1s el Lago no va a solucionar nada"
@@ -35,13 +35,13 @@ MonoBehaviour:
   - BaseNodeGuid: a513f485-78a7-47b4-934d-71c1494b8131
     PortName: Next Dialog
     TargetNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
+  - BaseNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
+    PortName: Next Dialog
+    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
   - BaseNodeGuid: 92257e9c-38c9-47d1-a9dd-a44159267789
     PortName: Next Dialog
     TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
   - BaseNodeGuid: deaaa821-6d27-494f-9fbb-9347313494b0
-    PortName: Next Dialog
-    TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
-  - BaseNodeGuid: bc4ae153-903a-4552-8813-14b2d607cb8d
     PortName: Next Dialog
     TargetNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
   - BaseNodeGuid: 28303a27-686a-481f-87e6-c956313366e6
@@ -115,13 +115,13 @@ MonoBehaviour:
     Content:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
-      DialogText: <color=black>Snifff  snifff
+      DialogText: Snifff  snifff
     Position: {x: 298, y: 178}
     Type: 2
     Choices:
     - "Mirar sin m\xE1s el Lago no va a solucionar nada"
     - "Perdona amigo pero, \xBFpor qu\xE9 est\xE1s tan triste mirando al lago?"
-    - "No deber\xEDas dejar de llorar?"
+    - "\xBFNo deber\xEDas dejar de llorar y ponerte a trabajar?"
   - Guid: e6f4eed7-a576-403b-a18a-7570c057d9b9
     Content:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
@@ -136,7 +136,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Lo siento, pero no me siento capaz de nada ahora mismo\u2026"
-    Position: {x: 1344, y: -177}
+    Position: {x: 1278, y: -145}
     Type: 1
     Choices:
     - Next Dialog
@@ -145,7 +145,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Lo siento, pero no me siento capaz de nada ahora mismo\u2026"
-    Position: {x: 1682, y: 109}
+    Position: {x: 1278, y: 134}
     Type: 1
     Choices:
     - Next Dialog
@@ -156,7 +156,7 @@ MonoBehaviour:
       DialogText: "Siempre vengo aqu\xED a descansar mirando el Lago, y con todo
         lo que est\xE1 pasando en el planeta \xFAltimamente, necesitaba m\xE1s que
         nunca calmarme y coger fuerzas mirando la corriente."
-    Position: {x: 1988, y: 109}
+    Position: {x: 1584, y: 134}
     Type: 1
     Choices:
     - Next Dialog
@@ -166,7 +166,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "Pero el Lago est\xE1 hecho un desastre y no me tranquiliza para
         nada, no puedo m\xE1s\u2026"
-    Position: {x: 2323, y: 109}
+    Position: {x: 1919, y: 134}
     Type: 2
     Choices:
     - 'Te entiendo y no te preocupes '
@@ -177,7 +177,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: Si no puedes evitar estar mal, espera a que se te pase con el tiempo
-    Position: {x: 2992, y: 434}
+    Position: {x: 2588, y: 459}
     Type: 1
     Choices:
     - Next Dialog
@@ -186,7 +186,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Si t\xFA lo dices\u2026"
-    Position: {x: 3317, y: 434}
+    Position: {x: 2913, y: 459}
     Type: 1
     Choices:
     - Next Dialog
@@ -195,7 +195,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Que tonter\xEDa mirar el r\xEDo para calmarse"
-    Position: {x: 3014, y: 181}
+    Position: {x: 2610, y: 206}
     Type: 1
     Choices:
     - Next Dialog
@@ -204,7 +204,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Si t\xFA lo dices\u2026"
-    Position: {x: 3317, y: 181}
+    Position: {x: 2913, y: 206}
     Type: 1
     Choices:
     - Next Dialog
@@ -214,7 +214,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "Te entiendo y no te preocupes, tienes todo el derecho a sentirte
         as\xED con todo lo que est\xE1 pasando"
-    Position: {x: 3014, y: -49}
+    Position: {x: 2610, y: -24}
     Type: 1
     Choices:
     - Next Dialog
@@ -224,7 +224,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "Gracias, a veces s\xF3lo se necesita un poco de empat\xEDa y comprensi\xF3n
         para dejar de \u201Cderrumbarse\u201D sobre uno mismo."
-    Position: {x: 3406, y: -149}
+    Position: {x: 3002, y: -124}
     Type: 2
     Choices:
     - "Tranquilo, pero a la pr\xF3xima s\xE9 m\xE1s fuerte"
@@ -235,7 +235,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Jajajaja, \xBFempat\xEDa y comprensi\xF3n? \xA1Eso es para d\xE9biles!"
-    Position: {x: 4149, y: 18}
+    Position: {x: 3795, y: 263}
     Type: 1
     Choices:
     - Next Dialog
@@ -244,7 +244,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "\xA1Eso no es cierto!"
-    Position: {x: 4569, y: 88}
+    Position: {x: 4119, y: 263}
     Type: 1
     Choices:
     - Next Dialog
@@ -253,7 +253,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "\xA1D\xE9jame en paz y vete!"
-    Position: {x: 4873, y: 133}
+    Position: {x: 4424, y: 263}
     Type: 1
     Choices:
     - Next Dialog
@@ -263,7 +263,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "\xA1Con esas respuestas vac\xEDas no me vas a ayudar ni a m\xED
         ni a nadie!"
-    Position: {x: 5156, y: 204}
+    Position: {x: 4719, y: 263}
     Type: 1
     Choices:
     - Next Dialog
@@ -274,7 +274,7 @@ MonoBehaviour:
       DialogText: "De nada, \xA1para eso estamos los amigos! Y recuerda, por muy
         mal que veas la situaci\xF3n a tu alrededor; nunca est\xE1s solo y nunca
         todo es tan horrible."
-    Position: {x: 4107, y: -145}
+    Position: {x: 3795, y: -124}
     Type: 1
     Choices:
     - Next Dialog
@@ -284,7 +284,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "Cuando est\xE9s mal, piensa en las cosas buenas que a\xFAn tienes
         y busca apoyo en gente de confianza como amigos o familia."
-    Position: {x: 4431, y: -142}
+    Position: {x: 4119, y: -127}
     Type: 1
     Choices:
     - Next Dialog
@@ -293,7 +293,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "\xA1Ellos te ayudar\xE1n cuando lo necesites!"
-    Position: {x: 4773, y: -139}
+    Position: {x: 4454, y: -127}
     Type: 1
     Choices:
     - Next Dialog
@@ -302,7 +302,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Vale, es verdad\u2026"
-    Position: {x: 5086, y: -139}
+    Position: {x: 4753, y: -127}
     Type: 1
     Choices:
     - Next Dialog
@@ -311,7 +311,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "Tienes raz\xF3n!\nNo todo el planeta est\xE1 perdido a\xFAn."
-    Position: {x: 5336, y: -60}
+    Position: {x: 5040, y: -127}
     Type: 1
     Choices:
     - Next Dialog
@@ -321,7 +321,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "Adem\xE1s tengo a mis compa\xF1eros conmigo, as\xED que intentar\xE9
         pensar en lo positivo y seguir adelante\u2026"
-    Position: {x: 5642, y: -27}
+    Position: {x: 5368, y: -127}
     Type: 1
     Choices:
     - Next Dialog
@@ -331,7 +331,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "Tranquilo, pero a la pr\xF3xima s\xE9 m\xE1s fuerte. No permitas
         que sean los dem\xE1s los que te tengan que animar para seguir adelante"
-    Position: {x: 4107, y: -372}
+    Position: {x: 3811, y: -507}
     Type: 1
     Choices:
     - Next Dialog
@@ -340,7 +340,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "\xA1Eso no es cierto!"
-    Position: {x: 4415, y: -369}
+    Position: {x: 4119, y: -504}
     Type: 1
     Choices:
     - Next Dialog
@@ -349,7 +349,7 @@ MonoBehaviour:
       characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
       emotion: 0
       DialogText: "\xA1D\xE9jame en paz y vete!"
-    Position: {x: 4684, y: -337}
+    Position: {x: 4385, y: -504}
     Type: 1
     Choices:
     - Next Dialog
@@ -359,7 +359,7 @@ MonoBehaviour:
       emotion: 0
       DialogText: "\xA1Con esas respuestas vac\xEDas no me vas a ayudar ni a m\xED
         ni a nadie!"
-    Position: {x: 5015, y: -375}
+    Position: {x: 4671, y: -507}
     Type: 1
     Choices:
     - Next Dialog

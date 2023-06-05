@@ -11,8 +11,6 @@ public class GameManager : MonoBehaviour
     private GameObject collider;
     [SerializeField] private TextMeshProUGUI text;
     private bool doOnce = true;
-  
-
     void Update()
     {
         DictionaryAdd();
@@ -23,12 +21,11 @@ public class GameManager : MonoBehaviour
        
         switch (text.text)
         {
-            case "<color=black>Snifff  snifff":
-               
+            case "Snifff":
                 if (doOnce)
                 {
-                    print("hola");
-                    PlayerDialogInteractor.pararInteraccionHastaPulsarBoton = false;
+                   // PlayerDialogInteractor.pararInteraccionHastaPulsarBoton = false;
+                    
                 }
                 doOnce = false;
                 break;
@@ -38,5 +35,5 @@ public class GameManager : MonoBehaviour
                 break;
         }
     }
-  
+ 
 }
