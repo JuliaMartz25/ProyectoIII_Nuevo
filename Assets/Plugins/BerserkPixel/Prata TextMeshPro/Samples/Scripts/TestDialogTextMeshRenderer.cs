@@ -17,6 +17,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
         [SerializeField] private GameObject choiceButtonPrefab;
         [SerializeField] private float typewriterSpeed = 30f;
         public static bool CanSpace = true;
+        public GameObject NextDialogue;
         public void Update()
         {
             if (CanSpace == true)
@@ -73,6 +74,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
         public override void Show()
         {
             container.SetActive(true);
+           
         }
 
         public override void Render(Dialog dialog)
@@ -109,11 +111,12 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
                     
                 }
                 choicesContainer.gameObject.SetActive(true);
-
+                NextDialogue.SetActive(false);
             }
             else
             {
                 choicesContainer.gameObject.SetActive(false);
+                NextDialogue.SetActive(true);
             }
         }
 

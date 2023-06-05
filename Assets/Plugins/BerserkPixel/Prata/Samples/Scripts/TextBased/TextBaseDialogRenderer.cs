@@ -121,7 +121,7 @@ namespace Plugins.BerserkPixel.Prata.Samples.Scripts
 
         public override void Hide()
         {
-            PlayerDialogInteractor.pararInteraccionHastaPulsarBoton = true;
+            
             RemoveChoices();
             container.SetActive(false);
         }

@@ -24,8 +24,7 @@ public class GameManager : MonoBehaviour
             case "Snifff":
                 if (doOnce)
                 {
-                   // PlayerDialogInteractor.pararInteraccionHastaPulsarBoton = false;
-                    
+                   // PlayerDialogInteractor.pararInteraccionHastaPulsarBoton = false; 
                 }
                 doOnce = false;
                 break;
